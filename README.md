@@ -77,7 +77,6 @@ no funciona como comando directo. PowerShell indica que, si quieres abrir el arc
 .\index.html
 ```
 
-Esto también fue verificado en tu registro. fileciteturn0file0L11-L20
 
 > Nota: aunque `./index.html` puede abrir el archivo, la opción recomendada sigue siendo `python -m http.server 8000`, especialmente si el juego usa `sw.js`, caché o modo offline.
 
