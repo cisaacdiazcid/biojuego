@@ -1,52 +1,25 @@
-# Node.js
-node_modules/
-npm-debug.log
-yarn-error.log
-
 # Logs
 logs/
 *.log
 *.log.*
 
-# Dependency directories
-jspm_packages/
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
-# IDEs and editors
-.idea/
-.vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# OS generated files
+# OS
 .DS_Store
 Thumbs.db
 
-# Build directories
-dist/
-build/
+# Editors
+.vscode/
+.idea/
 
 # Temporary files
 tmp/
 temp/
 
-# Specific files
-c2runtime.js
-jquery-2.1.1.min.js
-offline.js
-offlineClient.js
-sw.js
+# Optional Node files (solo si algún día usas npm)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
